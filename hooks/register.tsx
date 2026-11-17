@@ -153,7 +153,6 @@ export const register: Register = on => {
         )}
         <Text bold>{line}</Text>
         {now.tools > 0 && <Text dimColor>Инструментов за ход: {now.tools}</Text>}
-        <Text dimColor>Tikinson — Andrey / Andryuha40</Text>
       </Box>
     )
   })
