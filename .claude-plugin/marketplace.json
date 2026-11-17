@@ -1,0 +1,5 @@
+{
+  "name": "claude-pets",
+  "owner": { "name": "Andrey / Andryuha40" },
+  "plugins": [{ "name": "tikinson-pet", "source": "./" }]
+}

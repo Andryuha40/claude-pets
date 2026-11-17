@@ -1,0 +1,6 @@
+{
+  "name": "tikinson-pet",
+  "version": "0.1.0",
+  "description": "Tikinson (Andrey / Andryuha40) as a pet in a side pane: thinks, works, finishes along with Claude",
+  "types": "./types/index.d.ts"
+}
