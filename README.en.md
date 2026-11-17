@@ -52,6 +52,14 @@ In the Claude Desktop app, where `/plugin` doesn't run: click **+** next to the 
 - The pane opens by itself when a session starts. Closed it? Run `/tikinson`.
 - The animation is drawn in Claude Desktop. In a terminal you get a text status under the prompt instead.
 
+## Tokens and performance
+
+**Tokens: no extra spend.** The mod adds nothing to the system prompt, makes no model calls and doesn't change tool results. It only listens to events and draws a pane, which the model never sees. The one exception is running `/tikinson` by hand: its short reply line goes into the history (a few tokens per run).
+
+**CPU: next to nothing.** Measured on Windows 10 (12 threads, Claude Desktop) during the fastest animation, running at 11 fps: all Claude processes together — the app, the engine and the panes — used **0.49% of the CPU** over 20 seconds. That's an upper bound for the mod, since it includes the app itself. The animation runs as SVG inside the app window, with no timers in the mod's code.
+
+**Memory: about 0.6 MB.** That's the size of Tikinson's frames: 7 WebP strips embedded in the mod's code. The pane redraws only when the state changes — roughly twice per tool call.
+
 ## How it works
 
 The mod listens to Claude Code events: `turn.start` (a turn begins), `tool.call` (a tool runs), `turn.complete` (a turn ends), and keeps the current mood in session state. The pane draws frames from Tikinson's sprite atlas as an SVG with SMIL animation. Code: [`hooks/register.tsx`](hooks/register.tsx); reaction tests: [`hooks/pet.test.tsx`](hooks/pet.test.tsx).
