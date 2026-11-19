@@ -1,6 +1,6 @@
 {
   "name": "tikinson-pet",
-  "version": "0.1.0",
-  "description": "Tikinson (Andrey / Andryuha40) as a pet in a side pane: thinks, works, finishes along with Claude",
+  "version": "0.2.0",
+  "description": "Tikinson (Andrey / Andryuha40), a pet in a side pane: shows what Claude is doing, its limits and context, and the computer's load",
   "types": "./types/index.d.ts"
 }
