@@ -1,5 +1,9 @@
 # Claude Pets · Tikinson
 
+[![Telegram: Tikinson Games](https://img.shields.io/badge/Telegram-Tikinson%20Games-26A5E4?logo=telegram&logoColor=white)](https://t.me/tikinsongames)
+
+**The character is based on drawings by the artist Tikinson — [Tikinson Games on Telegram](https://t.me/tikinsongames).** Tikinson is his nickname, and the character is his self-portrait.
+
 [Русский](README.md) · English
 
 A living pet and a small dashboard for Claude Code. **Tikinson** sits in a pane beside the chat and shows, in real time, what Claude is up to: thinking, working, waiting for you, or done. Below him: how much of your limits and context is used, and, when you want them, your plan, your computer's load and the list of tools called.
@@ -114,6 +118,6 @@ The mod listens to Claude Code events — `turn.start`, `tool.call`, `turn.compl
 
 ## License and credits
 
-**Tikinson — Andrey / [Andryuha40](https://github.com/Andryuha40).** The character comes from the [codexpets](https://github.com/Andryuha40/codexpets) collection.
+**Tikinson — Andrey / [Andryuha40](https://github.com/Andryuha40).** The character comes from the [codexpets](https://github.com/Andryuha40/codexpets) collection and is based on drawings by the artist Tikinson: [Tikinson Games on Telegram](https://t.me/tikinsongames).
 
 The character, its images and animations are licensed for personal, non-commercial use only, with no changes to the artwork. Full text in [LICENSE.md](LICENSE.md). Frames are taken from the codexpets atlas without altering the drawing: cut into strips and compressed to WebP.

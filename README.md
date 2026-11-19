@@ -1,5 +1,9 @@
 # Claude Pets · Tikinson
 
+[![Telegram: Tikinson Games](https://img.shields.io/badge/Telegram-Tikinson%20Games-26A5E4?logo=telegram&logoColor=white)](https://t.me/tikinsongames)
+
+**Персонаж создан по мотивам рисунков художника Tikinson — [канал Tikinson Games в Telegram](https://t.me/tikinsongames).** Tikinson — это его ник, а сам персонаж — его автопортрет.
+
 Русский · [English](README.en.md)
 
 Живой питомец и приборная панель для Claude Code. **Tikinson** сидит в панели рядом с чатом и в реальном времени показывает, чем занят Claude: думает, работает, ждёт вас или уже закончил. Под ним — сколько израсходовано лимитов и контекста, а по желанию — подписка, нагрузка компьютера и список вызванных инструментов.
@@ -114,6 +118,6 @@ claude plugin install tikinson-pet --marketplace Andryuha40/claude-pets
 
 ## Лицензия и авторство
 
-**Tikinson — Andrey / [Andryuha40](https://github.com/Andryuha40).** Персонаж из коллекции [codexpets](https://github.com/Andryuha40/codexpets).
+**Tikinson — Andrey / [Andryuha40](https://github.com/Andryuha40).** Персонаж из коллекции [codexpets](https://github.com/Andryuha40/codexpets), создан по мотивам рисунков художника Tikinson: [Tikinson Games в Telegram](https://t.me/tikinsongames).
 
 Персонаж, его изображения и анимации разрешены только для личного некоммерческого использования, графику менять нельзя. Полный текст — в [LICENSE.md](LICENSE.md). Кадры взяты из атласа codexpets без изменения рисунка: нарезаны в полосы и сжаты в WebP.
